@@ -10,10 +10,11 @@ make no guarantees that this is cryptographically safe, this was solely for a cl
 Usage of this project requires the instillation of the following libraries:
 - [argon2-cffi](https://pypi.org/project/argon2-cffi/)
 - [PyCryptodome](https://pypi.org/project/pycryptodome/)
+- [toml](https://pypi.org/project/toml/)
 
 You can install these with:
 ```sh
-pip install argon2-cffi pycryptodome
+pip install argon2-cffi pycryptodome toml
 ```
 
 This repository includes an example project in the `example` directory, but a graphical app could
